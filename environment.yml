@@ -1,0 +1,9 @@
+name: v1-pandas-practice
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - pandas>=2.0,<3
+  - pip
+  - pip:
+      - -e .
